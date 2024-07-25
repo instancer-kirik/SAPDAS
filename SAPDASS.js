@@ -1,17 +1,17 @@
 // ==UserScript==
-// @name         Sketchfab Auto Downloader and Attribution Saver
+// @name         Sketchfab Auto PreferredFormat Downloader and Attribution Saver Script
 // @namespace    https://greasyfork.org/users/instancer-kirik
 // @version      2.2
-// @description  Automatically downloads preferred format and saves attribution from Sketchfab for multiple tabs
+// @description  Automatically downloads preferred format and saves attribution from Sketchfab for one tab at a time. If you can automate this further; give it a try
 // @author       instancer-kirik
 
-// @description  Automatically download preferred format and save attribution from Sketchfab for multiple tabs
 // @match        https://sketchfab.com/3d-models/*
 // @grant        GM_download
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_setClipboard
 // @grant        GM_notification
+// @license      Creative Commons Zero v1.0 Universal
 // ==/UserScript==
 // Built and tested with Violentmonkey on Arc browser for Windows.
 
@@ -55,7 +55,7 @@
 
 function handleDownloadModal() {
     logDebug('Handling download modal...');
-    const preferredFormats = ['.blend', '.usdz', '.gltf', '.glb'];
+    const preferredFormats = ['.blend', '.usdz', '.gltf', '.glb', '.obj', .'fbx'];
     let selectedButton = null;
 
     for (let format of preferredFormats) {
