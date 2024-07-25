@@ -5,7 +5,7 @@ to use, get a script runner extension. I use Violentmonkey.
 this is listed on Greasy Fork at 
 
 https://greasyfork.org/en/scripts/501729-sketchfab-auto-preferredformat-downloader-and-attribution-saver-script
-but otherwise, you can copy and paste the contents of SAPDASS.js into a new script in your script runner, and save it, then you can expedite downloading free models and saving attributions
+but otherwise, you can copy and paste the contents of SAPDASS.js into a new script in your script runner, and save it, then you can expedite downloading free 3D models and saving attributions
 
 
 
