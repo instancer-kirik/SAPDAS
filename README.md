@@ -12,8 +12,7 @@ but otherwise, you can copy and paste the contents of SAPDAS.js into a new scrip
 
 I was making an assetpack for my nephews, and it was too much work; so I made this to help.
 
-I support myself how I can, but I need to get $200 by the end of the month or my servers shut down. Now that isn't a lot of money, but I make a lot of free code. Help support me :D
-
+Show appreciation or support me
 $Instancer
 
 https://patreon.com/instance_select
