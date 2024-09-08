@@ -1,5 +1,5 @@
-# SAPDASS
-Sketchfab Auto PreferredFormat Downloader and Attribution Saver Script
+# SAPDAS
+Sketchfab Auto PreferredFormat Downloader and Attribution Saver
 to use, get a script runner extension. I use Violentmonkey.
 
 this is listed on Greasy Fork at 
