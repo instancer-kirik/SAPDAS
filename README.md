@@ -17,7 +17,7 @@ $Instancer
 
 https://patreon.com/instance_select
 
-you can probably change the order of preffered formats if you want fbx or something at
+you can change the order of preffered formats if you want usdz or fbx or something at
 
 const preferredFormats = ['.blend', '.usdz', '.gltf', '.glb', '.obj', 'fbx'];
 
